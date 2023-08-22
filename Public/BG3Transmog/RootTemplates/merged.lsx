@@ -10,9 +10,9 @@
 					<attribute id="Icon" type="FixedString" value="Item_LOOT_GEN_Amulet_Absolute_A" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="bec7c9ed-8293-4385-8f0d-80115621790b" />
-					<attribute id="Name" type="LSString" value="TMG_SUMMON_BASKET_AMULET" />
+					<attribute id="Name" type="LSString" value="TMG_SUMMON_CHEST_AMULET" />
 					<attribute id="ParentTemplateId" type="FixedString" value="fc44cf0e-04dc-4feb-b143-b1c52cffe252" />
-					<attribute id="Stats" type="FixedString" value="TMG_SUMMON_BASKET_AMULET" />					
+					<attribute id="Stats" type="FixedString" value="TMG_SUMMON_CHEST_AMULET" />					
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
 					<children>
