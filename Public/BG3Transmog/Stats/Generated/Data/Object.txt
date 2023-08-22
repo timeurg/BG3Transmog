@@ -1,0 +1,7 @@
+new entry "TMG_SUMMONED_CHEST"
+type "Object"
+using "_Container"
+data "RootTemplate" "7155bfc2-47f8-4a9e-8584-49637cefad99"
+data "ValueOverride" "7"
+data "Weight" "0.01"
+data "Rarity" "Rare"

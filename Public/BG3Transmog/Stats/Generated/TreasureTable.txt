@@ -1,0 +1,16 @@
+new treasuretable "DEN_Entrance_Trade"
+CanMerge 1
+new subtable "2,1"
+object category "I_TMG_SUMMON_CHEST_AMULET",1,0,0,0,0,0,0,0
+
+
+new treasuretable "TUT_Chest_Potions"
+CanMerge 1
+new subtable "1,1"
+object category "I_TMG_SUMMON_CHEST_AMULET",1,0,0,0,0,0,0,0
+
+new treasuretable "TMG_SUMMONED_CHEST_TT"
+new subtable "1,1"
+object category "I_TMG_SUMMON_CHEST_AMULET",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_TMG_ARM_Hat_MuffinHat_B",1,0,0,0,0,0,0,0
