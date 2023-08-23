@@ -3,65 +3,30 @@ const path = require('node:path');
 
 console.log('start', process.argv);
 
-const categories = ['_Head', '_Hand', '_Back', ];
-
-const paths = [
+const pathGameAssets = [
     'D:\\Games\\bg3GameLite\\Shared\\Public\\Shared\\Stats\\Generated\\Data\\Armor.txt',
     'D:\\Games\\bg3GameLite\\Shared\\Public\\SharedDev\\Stats\\Generated\\Data\\Armor.txt',
     'D:\\Games\\bg3GameLite\\Gustav.pak\\Public\\Gustav\\Stats\\Generated\\Data\\Armor.txt',
     'D:\\Games\\bg3GameLite\\Gustav.pak\\Public\\GustavDev\\Stats\\Generated\\Data\\Armor.txt'
 ];
+const pathMod = [
+    `D:\\Games\\bg3mods\\BG3Transmog\\Public\\BG3Transmog\\Stats\\Generated`
+]
 
-let armor = paths.map(p => fs.readFileSync(p, 'utf8')).join();
+const pathTest = [
+    `C:\\SteamLibrary\\steamapps\\common\\Baldurs Gate 3\\Data\\Public\\BG3Transmog\\Stats\\Generated`
+]
 
-armor = armor.split("\r\n\r\n");
 
-function filter(haystack, needle) {
-    return haystack.filter(s => s.indexOf(needle) != -1);
-}
 
-// console.log([{
-//     e: 'new entry "ARM_Shoes_C"\r\n' +
-//       'type "Armor"\r\n' +
-//       'using "ARM_Shoes"\r\n' +
-//       'data "RootTemplate" "10e07ff1-5586-44fb-b437-31db1f7748ec"',
-//     name: 'ARM_Shoes_C',
-//     type: 'Armor',
-//     using: 'ARM_Shoes',
-//     RootTemplate: '10e07ff1-5586-44fb-b437-31db1f7748ec'
-//   },
-//   {
-//     e: 'new entry "ARM_Shoes_D"\r\n' +
-//       'type "Armor"\r\n' +
-//       'using "ARM_Shoes"\r\n' +
-//       'data "RootTemplate" "85d78eab-e4ad-4f56-bfb3-87c6368f5b17"',
-//     name: 'ARM_Shoes_D',
-//     type: 'Armor',
-//     using: 'ARM_Shoes',
-//     }].filter(e => Object.keys(e).map(i => { 
-//         console.log(e,i, e[i],  e[i].indexOf('10e07ff1'))
-//         return e[i].indexOf('10e07ff1') !== 0}) //.reduce((a,b) => a || b)
-//     )
-// )
-// return;
-let db = armor
-    .map(e => {
-        let entry = {
-            __raw__: e
-        };
-        e.split("\r\n").map(string => {
-            ['new entry', 'type', 'using'].map(s => {
-                if (string.indexOf(s) === 0) {
-                    entry[s == 'new entry' ? 'name' : s] = string.replace(s, '').replaceAll(/\"/g, '').trim();
-                }
-            })
-            if (string.indexOf('data') === 0) {
-                let r = string.split(' ').map(s => s.replaceAll(/\"/g, '').trim());
-                entry[r[1]] = r.splice(2).join().replaceAll("\"", '');
-            }
-        })
-        return entry;
-    });
+let lsx_locate = (uuid) =>
+    pathGameAssets.map(p => {
+        const filename = (path.dirname(p) + '/../../../RootTemplates/' + uuid + '.lsx');
+        return fs.existsSync(filename) ? filename : ''
+    }).filter(i => i != '').join(';')
+
+
+let db = initDb();
 
 console.log('Items in db', db.length);
 
@@ -86,42 +51,207 @@ node .dig.js lsxlocate edb7385a-e4d4-4fb7-ad9f-a9910e4b9e97
         db.map(e => Object.keys(e).map(k => map[k] = 1));
         return Object.keys(map);
     },
-    lsxlocate: (uuid) =>
-        paths.map(p => {
-            const filename = (path.dirname(p) + '/../../../RootTemplates/' + uuid + '.lsx');
-            return fs.existsSync(filename) ? filename : ''
-        }).filter(i => i != '').join(';'),
+    lsx_locate,
+    lsx_ls: () => {
+        return db.map(i => i.RootTemplate ? {
+            ...i,
+            __loc__: lsx_locate(i.RootTemplate)
+        } : null).filter(i => i && i.__loc__ != '')
+    },
     lsx: (uuid) => {
-        let file = commands.lsxlocate(uuid);
+        let file = lsx_locate(uuid);
         if (file) {
             return fs.readFileSync(file, 'utf-8')
         }
-    }
+    },
+    head,
+    body,
+    legs,
+    all
+
 }
 
+function all() {
+    fs.writeFileSync(`${pathMod[0]}\\TreasureTable.txt`,
+    `new treasuretable "DEN_Entrance_Trade"
+CanMerge 1`);
+    head();
+    body();
+    legs();
+}
 
-if (commands[process.argv[2]] instanceof Function) {
-    let result = commands[process.argv[2]](...process.argv.splice(3));
+let args, command;
+if (process.argv[2] == 'x') {
+    command = process.argv[3];
+    args = process.argv.splice(4);
+    db = commands['lsx_ls']();
+    console.log('Items in db', db.length);
+} else {
+    command = process.argv[2];
+    args = process.argv.splice(3);
+}
+if (commands[command] instanceof Function) {
+    let result = commands[command](...args)
     console.log(result)
-    console.log(process.argv[2], 'exited');
+    console.log(command, 'exited');
     if (result instanceof Array) {
         console.log(result.length, 'rows')
     }
 }
 
-// let types = {};
+function head () {
+    db = commands['lsx_ls']();
+    let helmets = [
+        ...commands.find('Helm'),
+        ...commands.find('Hat'),
+        ...commands.find('Head'),
+        ...commands.find('Mask'),
+        ...commands.find('Scarf'),
+        // ...commands.find('Helm'),
+    ];
+    helmets = helmets.sort((a,b)=> a.name > b.name)
+    // return  helmets.filter((i,k) => helmets[k+1] && i.name == helmets[k+1].name ? console.log(i,helmets[k+1]) : null);
+    fs.unlinkSync(`${pathMod[0]}\\Data\\Helmets.txt`);
+    fs.writeFileSync(`${pathMod[0]}\\Data\\Helmets.txt`,
+    `
+    `
+    )
 
-// db.map(e => types[e.using] = 1);
+    helmets.map(i => {
+        fs.appendFileSync(
+        `${pathMod[0]}\\Data\\Helmets.txt`, 
+        `
+new entry "${i.name}_UNDERWEAR"
+data "Slot" "Underwear"
+data "RootTemplate" "${i.RootTemplate}"
+data "Weight" "0.01"
+data "ObjectCategory" "ClothingCommon"
+data "Rarity" "Legendary"
 
-// console.log('using', Object.keys(types))
+new entry "${i.name}_UNDERWEAR2"
+data "Slot" "Underwear"
+data "RootTemplate" "${i.RootTemplate}"
+data "Weight" "0.01"
+data "ObjectCategory" "ClothingRich"
+data "Rarity" "Legendary"
+`
+        );
+        fs.appendFileSync(
+        `${pathMod[0]}\\TreasureTable.txt`, 
+            `
+new subtable "1,1"
+object category "I_${i.name}_UNDERWEAR",1,0,0,0,0,0,0,0`
+        );
+    }
+    );
+    return [];
+}
 
-// let res = '';
+function body () {
+    db = commands['lsx_ls']();
+    let helmets = [
+        ...commands.find('Cloth'),
+        ...commands.find('Robe'),
+        ...commands.find('Body'),
+        ...commands.find('fffff'),
+        // ...commands.find('Helm'),
+        // ...commands.find('Helm'),
+    ];
+    // return helmets;
+    fs.unlinkSync(`${pathMod[0]}\\Data\\Body.txt`);
+    fs.writeFileSync(`${pathMod[0]}\\Data\\Body.txt`,'')
+    helmets.map(i => {
+        fs.appendFileSync(
+        `${pathMod[0]}\\Data\\Body.txt`, 
+        `
+new entry "${i.name}_CAMP"
+using "ARM_Camp_Body"
+data "Slot" "VanityBody"
+data "RootTemplate" "${i.RootTemplate}"
+data "ObjectCategory" "ClothingCommon"
+data "Weight" "0.01"
+data "Rarity" "Legendary"
 
-// for (item of categories){
-//     res += filter(armor, item).map(s => s.replace(item + '"', item + `"    
-// data "Slot" "Underwear"`)).join('\r\n\r\n');
+new entry "${i.name}_CAMP2"
+using "ARM_Camp_Body"
+data "Slot" "VanityBody"
+data "RootTemplate" "${i.RootTemplate}"
+data "ObjectCategory" "ClothingRich"
+data "Weight" "0.01"
+data "Rarity" "Legendary"
+`
+        );
+        fs.appendFileSync(
+        `${pathMod[0]}\\TreasureTable.txt`, 
+            `
+new subtable "1,1"
+object category "I_${i.name}_CAMP",1,0,0,0,0,0,0,0`
+        );
+    }
+    );
+    return helmets;
+}
 
-//     // console.log(items, items.length)
-// }
+function legs () {
+    db = commands['lsx_ls']();
+    let helmets = [
+        ...commands.find('Boot'),
+        ...commands.find('Shoes'),
+        ...commands.find('fffff'),
+        // ...commands.find('Helm'),
+        // ...commands.find('Helm'),
+    ];
+    if(fs.existsSync(`${pathMod[0]}\\Data\\Legs.txt`)) fs.unlinkSync(`${pathMod[0]}\\Data\\Legs.txt`);
+    fs.writeFileSync(`${pathMod[0]}\\Data\\Legs.txt`,'')
+    helmets.map(i => {
+        fs.appendFileSync(
+        `${pathMod[0]}\\Data\\Legs.txt`, 
+        `
+new entry "${i.name}_CAMPBOOT"
+using "ARM_Camp_Shoes"
+data "RootTemplate" "${i.RootTemplate}"
+data "ObjectCategory" "ShoesCommon"
+data "Weight" "0.01"
+data "Rarity" "Legendary"
 
-// fs.writeFileSync('.result',res)
+new entry "${i.name}_CAMPBOOT2"
+using "ARM_Camp_Shoes"
+data "RootTemplate" "${i.RootTemplate}"
+data "ObjectCategory" "ShoesRich"
+data "Weight" "0.01"
+data "Rarity" "Legendary"
+`
+        );
+        fs.appendFileSync(
+        `${pathMod[0]}\\TreasureTable.txt`, 
+            `
+new subtable "1,1"
+object category "I_${i.name}_CAMPBOOT",1,0,0,0,0,0,0,0`
+        );
+    }
+    );
+    return helmets;
+}
+
+function initDb() {
+    let armor = pathGameAssets.map(p => fs.readFileSync(p, 'utf8')).join();
+    armor = armor.split("\r\n\r\n");
+    return armor
+    .map(e => {
+        let entry = {
+            __raw__: e
+        };
+        e.split("\r\n").map(string => {
+            ['new entry', 'type', 'using'].map(s => {
+                if (string.indexOf(s) === 0) {
+                    entry[s == 'new entry' ? 'name' : s] = string.replace(s, '').replaceAll(/\"/g, '').trim();
+                }
+            })
+            if (string.indexOf('data') === 0) {
+                let r = string.split(' ').map(s => s.replaceAll(/\"/g, '').trim());
+                entry[r[1]] = r.splice(2).join().replaceAll("\"", '');
+            }
+        })
+        return entry;
+    }).filter(i => i);
+}
