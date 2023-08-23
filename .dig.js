@@ -1,7 +1,13 @@
 const fs = require('fs');
 const path = require('node:path');
-
 console.log('start', process.argv);
+console.log('USAGE', `node .dig.js x find Hat
+node .dig.js distinct using
+node .dig.js lsxlocate edb7385a-e4d4-4fb7-ad9f-a9910e4b9e97
+node .dig.js all
+`);
+
+
 
 const pathGameAssets = [
     'D:\\Games\\bg3GameLite\\Shared\\Public\\Shared\\Stats\\Generated\\Data\\Armor.txt',
@@ -17,10 +23,11 @@ const pathTest = [
     `C:\\SteamLibrary\\steamapps\\common\\Baldurs Gate 3\\Data\\Public\\BG3Transmog\\Stats\\Generated`
 ]
 
-
+const dbResorces = pathGameAssets;
+const targetResources = pathMod;
 
 let lsx_locate = (uuid) =>
-    pathGameAssets.map(p => {
+    dbResorces.map(p => {
         const filename = (path.dirname(p) + '/../../../RootTemplates/' + uuid + '.lsx');
         return fs.existsSync(filename) ? filename : ''
     }).filter(i => i != '').join(';')
@@ -35,9 +42,7 @@ console.log('Items in db', db.length);
 const commands = {
     help: () =>
         `        
-node .dig.js find Hat
-node .dig.js distinct using
-node .dig.js lsxlocate edb7385a-e4d4-4fb7-ad9f-a9910e4b9e97
+
 
 `,
     find: (string) => db.filter(e => Object.keys(e).map(i => e[i].indexOf(string) !== -1).reduce((a, b) => a || b)),
@@ -72,12 +77,16 @@ node .dig.js lsxlocate edb7385a-e4d4-4fb7-ad9f-a9910e4b9e97
 }
 
 function all() {
-    fs.writeFileSync(`${pathMod[0]}\\TreasureTable.txt`,
+    fs.writeFileSync(`${targetResources[0]}\\TreasureTable.txt`,
     `new treasuretable "DEN_Entrance_Trade"
 CanMerge 1`);
-    head();
-    body();
-    legs();
+    let res1 = head();
+    let res = [res1.length + ' of heads']
+    res1 = body();
+    res = [...res, res1.length + ' of bodies']
+    res1 = legs();
+    res = [...res, res1.length + ' of legs']
+    return res
 }
 
 let args, command;
@@ -111,40 +120,30 @@ function head () {
     ];
     helmets = helmets.sort((a,b)=> a.name > b.name)
     // return  helmets.filter((i,k) => helmets[k+1] && i.name == helmets[k+1].name ? console.log(i,helmets[k+1]) : null);
-    fs.unlinkSync(`${pathMod[0]}\\Data\\Helmets.txt`);
-    fs.writeFileSync(`${pathMod[0]}\\Data\\Helmets.txt`,
-    `
-    `
-    )
+    fs.unlinkSync(`${targetResources[0]}\\Data\\Helmets.txt`);
+    fs.writeFileSync(`${targetResources[0]}\\Data\\Helmets.txt`,'')
 
     helmets.map(i => {
         fs.appendFileSync(
-        `${pathMod[0]}\\Data\\Helmets.txt`, 
+        `${targetResources[0]}\\Data\\Helmets.txt`, 
         `
 new entry "${i.name}_UNDERWEAR"
+using "_Head"
 data "Slot" "Underwear"
 data "RootTemplate" "${i.RootTemplate}"
 data "Weight" "0.01"
-data "ObjectCategory" "ClothingCommon"
-data "Rarity" "Legendary"
-
-new entry "${i.name}_UNDERWEAR2"
-data "Slot" "Underwear"
-data "RootTemplate" "${i.RootTemplate}"
-data "Weight" "0.01"
-data "ObjectCategory" "ClothingRich"
 data "Rarity" "Legendary"
 `
         );
         fs.appendFileSync(
-        `${pathMod[0]}\\TreasureTable.txt`, 
+        `${targetResources[0]}\\TreasureTable.txt`, 
             `
 new subtable "1,1"
 object category "I_${i.name}_UNDERWEAR",1,0,0,0,0,0,0,0`
         );
     }
     );
-    return [];
+    return helmets;
 }
 
 function body () {
@@ -158,11 +157,11 @@ function body () {
         // ...commands.find('Helm'),
     ];
     // return helmets;
-    fs.unlinkSync(`${pathMod[0]}\\Data\\Body.txt`);
-    fs.writeFileSync(`${pathMod[0]}\\Data\\Body.txt`,'')
+    fs.unlinkSync(`${targetResources[0]}\\Data\\Body.txt`);
+    fs.writeFileSync(`${targetResources[0]}\\Data\\Body.txt`,'')
     helmets.map(i => {
         fs.appendFileSync(
-        `${pathMod[0]}\\Data\\Body.txt`, 
+        `${targetResources[0]}\\Data\\Body.txt`, 
         `
 new entry "${i.name}_CAMP"
 using "ARM_Camp_Body"
@@ -182,7 +181,7 @@ data "Rarity" "Legendary"
 `
         );
         fs.appendFileSync(
-        `${pathMod[0]}\\TreasureTable.txt`, 
+        `${targetResources[0]}\\TreasureTable.txt`, 
             `
 new subtable "1,1"
 object category "I_${i.name}_CAMP",1,0,0,0,0,0,0,0`
@@ -201,11 +200,11 @@ function legs () {
         // ...commands.find('Helm'),
         // ...commands.find('Helm'),
     ];
-    if(fs.existsSync(`${pathMod[0]}\\Data\\Legs.txt`)) fs.unlinkSync(`${pathMod[0]}\\Data\\Legs.txt`);
-    fs.writeFileSync(`${pathMod[0]}\\Data\\Legs.txt`,'')
+    if(fs.existsSync(`${targetResources[0]}\\Data\\Legs.txt`)) fs.unlinkSync(`${targetResources[0]}\\Data\\Legs.txt`);
+    fs.writeFileSync(`${targetResources[0]}\\Data\\Legs.txt`,'')
     helmets.map(i => {
         fs.appendFileSync(
-        `${pathMod[0]}\\Data\\Legs.txt`, 
+        `${targetResources[0]}\\Data\\Legs.txt`, 
         `
 new entry "${i.name}_CAMPBOOT"
 using "ARM_Camp_Shoes"
@@ -223,7 +222,7 @@ data "Rarity" "Legendary"
 `
         );
         fs.appendFileSync(
-        `${pathMod[0]}\\TreasureTable.txt`, 
+        `${targetResources[0]}\\TreasureTable.txt`, 
             `
 new subtable "1,1"
 object category "I_${i.name}_CAMPBOOT",1,0,0,0,0,0,0,0`
@@ -234,7 +233,7 @@ object category "I_${i.name}_CAMPBOOT",1,0,0,0,0,0,0,0`
 }
 
 function initDb() {
-    let armor = pathGameAssets.map(p => fs.readFileSync(p, 'utf8')).join();
+    let armor = dbResorces.map(p => fs.readFileSync(p, 'utf8')).join();
     armor = armor.split("\r\n\r\n");
     return armor
     .map(e => {
