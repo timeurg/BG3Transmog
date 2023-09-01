@@ -1,0 +1,889 @@
+[
+  {
+    "name": "UNI_Druid_Helmet_Circlet",
+    "type": "Armor",
+    "using": "_Head_Magic_Circlet",
+    "RootTemplate": "f4bef44e-57f1-47b5-ab2d-2457ff21c707",
+    "Rarity": "Uncommon",
+    "Boosts": "Skill(Nature, 1)",
+    "Unique": "1"
+  },
+  {
+    "name": "FOR_ShadowheartOM_SharCrown",
+    "type": "Armor",
+    "using": "ARM_Hat",
+    "RootTemplate": "ad3c0c6b-bcc4-488e-a5cf-32b809188633",
+    "ItemGroup": "",
+    "Unique": "1"
+  },
+  {
+    "name": "FOR_OgresForHire_HeadbandOfIntellect",
+    "type": "Armor",
+    "using": "ARM_HeadbandOfIntellect",
+    "RootTemplate": "8f4876f1-44d9-4bb8-802e-907c6b0a0dba",
+    "ItemGroup": "",
+    "ValueScale": "0.7",
+    "Rarity": "Uncommon",
+    "Boosts": "AbilityOverrideMinimum(Intelligence,17)",
+    "Unique": "1"
+  },
+  {
+    "name": "ACT1_HAG_HagMask",
+    "type": "Armor",
+    "using": "_Head",
+    "RootTemplate": "73690248-deea-4713-84d6-c1c8fb045869",
+    "ItemGroup": "",
+    "PassivesOnEquip": "HAG_HagMask"
+  },
+  {
+    "name": "HAG_SwampedHero_OldFancyHelmet",
+    "type": "Armor",
+    "using": "ARM_Helmet_Metal",
+    "RootTemplate": "910ed403-38b3-4128-b07b-0de5d14da8f8",
+    "ItemGroup": ""
+  },
+  {
+    "name": "UND_ShadowOfMenzoberranzan",
+    "type": "Armor",
+    "using": "_Head_Magic_Leather",
+    "RootTemplate": "d46206c9-fb4f-44a4-a4f4-f70f8cd2a64c",
+    "ItemGroup": "",
+    "ValueUUID": "a229f048-70b0-4b0c-88cb-29b5c6bdb2d0",
+    "Rarity": "Rare",
+    "Boosts": "UnlockSpell(Shout_UND_Invisibility_ShadowOfMenzoberranzan)",
+    "Unique": "1"
+  },
+  {
+    "name": "UND_FairyRing_AntiCharmHelmet",
+    "type": "Armor",
+    "using": "_Head_Magic_Leather",
+    "RootTemplate": "a47c13a1-1a8e-4b3b-9cd9-53cf9c7058f0",
+    "ItemGroup": "",
+    "Rarity": "Uncommon",
+    "Boosts": "ProficiencyBonus(SavingThrow,Wisdom)",
+    "Unique": "1"
+  },
+  {
+    "name": "UND_DrowDisguiseCowl",
+    "type": "Armor",
+    "using": "ARM_Helmet_Leather",
+    "RootTemplate": "85f6aec3-a6df-458c-8ef4-b3fa58d85a56",
+    "Unique": "1"
+  },
+  {
+    "name": "UND_Justiciar_Mask_Magic",
+    "type": "Armor",
+    "using": "_Head_Magic",
+    "RootTemplate": "58968403-4dd6-4611-a7a2-a293ae7cf0b0",
+    "ItemGroup": "",
+    "Rarity": "Uncommon",
+    "Boosts": "Skill(Intimidation,1)",
+    "Unique": "1"
+  },
+  {
+    "name": "UND_Justiciar_Helmet_Magic",
+    "type": "Armor",
+    "using": "_Head_Magic_Metal",
+    "RootTemplate": "27f1c6cd-c716-440d-ba7c-795c431ce5a3",
+    "ItemGroup": "",
+    "Rarity": "Uncommon",
+    "PassivesOnEquip": "UND_Justiciar_Helmet_Magic_Passive",
+    "Unique": "1"
+  },
+  {
+    "name": "MAG_LowHP_BonusAction_Helmet",
+    "type": "Armor",
+    "using": "_Head_Magic_Leather",
+    "RootTemplate": "d98595e1-0722-4200-ab73-5e88269519fa",
+    "ItemGroup": "",
+    "ValueUUID": "c5ad02e9-b4d4-4df1-a9cd-02b80d017eaa",
+    "Rarity": "VeryRare",
+    "PassivesOnEquip": "MAG_LowHP_BonusAction_Passive",
+    "StatusOnEquip": "MAG_LOW_HP_BONUS_ACTION_TECHNICAL",
+    "Unique": "1"
+  },
+  {
+    "name": "MAG_Fire_BonusActionOnFireSpell_Circlet",
+    "type": "Armor",
+    "using": "ARM_Hat_Wizard_C",
+    "RootTemplate": "d5e4dce0-4385-4fae-a601-22a11fe0b2af",
+    "ItemGroup": "",
+    "ValueUUID": "c5ad02e9-b4d4-4df1-a9cd-02b80d017eaa",
+    "ValueScale": "0.7",
+    "Rarity": "VeryRare",
+    "PassivesOnEquip": "MAG_Fire_BonusActionOnFireSpell_Passive",
+    "Unique": "1"
+  },
+  {
+    "name": "MAG_Healer_HealSelf_Helmet",
+    "type": "Armor",
+    "using": "_Head_Magic_Circlet",
+    "RootTemplate": "e305c00e-a231-41e4-86de-cbb320bafbc8",
+    "ItemGroup": "",
+    "Rarity": "Uncommon",
+    "PassivesOnEquip": "MAG_Healer_HealSelf_Passive",
+    "Unique": "1"
+  },
+  {
+    "name": "MAG_Mobility_MomentumOnCombatStart_Helmet",
+    "type": "Armor",
+    "using": "_Head_Magic",
+    "RootTemplate": "94cc605d-e407-408d-acb6-9e2e31dfb283",
+    "ItemGroup": "",
+    "ValueUUID": "a229f048-70b0-4b0c-88cb-29b5c6bdb2d0",
+    "Rarity": "Rare",
+    "PassivesOnEquip": "MAG_Mobility_MomentumOnCombatStart_Passive",
+    "StatusOnEquip": "MAG_MOBILITY_ONCOMBATSTART_APPLIER_TECHNICAL",
+    "Unique": "1"
+  },
+  {
+    "name": "MAG_Violence_ViolenceOnDamaged_Helmet",
+    "type": "Armor",
+    "using": "_Head_Magic",
+    "RootTemplate": "b2ac96aa-5f04-49fb-800c-ab51a2bdb3c6",
+    "ItemGroup": "",
+    "ValueUUID": "240eb257-ef20-4877-89bd-6956b4b7c41a",
+    "Rarity": "Rare",
+    "PassivesOnEquip": "MAG_Violence_LowHP_Violence_Passive",
+    "Unique": "1"
+  },
+  {
+    "name": "MAG_MeleeDebuff_AttackDebuff1_OnDamage_Helmet",
+    "type": "Armor",
+    "using": "_Head_Magic_Metal",
+    "RootTemplate": "6b1c4d55-e0d1-4b58-a26d-57d807bca488",
+    "ItemGroup": "",
+    "ValueUUID": "c5ad02e9-b4d4-4df1-a9cd-02b80d017eaa",
+    "Rarity": "VeryRare",
+    "Boosts": "CriticalHit(AttackTarget,Success,Never);Resistance(Fire, Resistant);UnlockSpell(Target_MAG_HuntersMark_Grymskull)",
+    "Unique": "1",
+    "Proficiency Group": "HeavyArmor"
+  },
+  {
+    "name": "MAG_ChargedLightning_TempHP_Helmet",
+    "type": "Armor",
+    "using": "_Head_Magic_Circlet",
+    "RootTemplate": "3ccc28a3-faa5-4664-a46a-39300b2d3803",
+    "ItemGroup": "",
+    "Rarity": "Uncommon",
+    "PassivesOnEquip": "MAG_ChargedLightning_TempHP_Helmet_Passive",
+    "Unique": "1"
+  },
+  {
+    "name": "MAG_Bard_HealingBardicInspiration_Hat",
+    "type": "Armor",
+    "using": "_Head_Magic",
+    "RootTemplate": "cfbd013c-f24d-4430-be13-d7bfafd48709",
+    "Rarity": "Uncommon",
+    "PassivesOnEquip": "MAG_BardicInspiration_Heal_Hat_Passive",
+    "Unique": "1"
+  },
+  {
+    "name": "MAG_Paladin_SmiteSpellsSupport_Helmet",
+    "type": "Armor",
+    "using": "_Head_Magic_Metal",
+    "RootTemplate": "0ae1e62c-b36a-4dbc-97fb-e0658b454974",
+    "Rarity": "Uncommon",
+    "PassivesOnEquip": "MAG_Paladin_SmiteSpellsSupport_Helmet_Passive",
+    "Unique": "1"
+  },
+  {
+    "name": "TWN_TollCollector_ArmorPart_Head",
+    "type": "Armor",
+    "using": "_Head_Magic",
+    "RootTemplate": "d7ba60e5-fe90-4503-9919-0f831c306c53",
+    "ItemGroup": "",
+    "Slot": "Helmet",
+    "Requirements": "",
+    "ArmorClass": "2",
+    "Weight": "5",
+    "Boosts": "",
+    "ArmorType": "ChainShirt",
+    "Unique": "1",
+    "Proficiency Group": "HeavyArmor"
+  },
+  {
+    "name": "MAG_Frost_GenerateFrostOnStatusApply_Hat",
+    "type": "Armor",
+    "using": "_Head_Magic",
+    "RootTemplate": "d8ef5f3c-cada-42f8-a947-c3a3f62e569d",
+    "Rarity": "Uncommon",
+    "PassivesOnEquip": "MAG_Frost_GenerateFrostOnStatusApply_Hat_Passive",
+    "MinAmount": "1",
+    "MaxAmount": "1",
+    "Priority": "1",
+    "Unique": "1",
+    "MinLevel": "1"
+  },
+  {
+    "name": "MAG_ElementalGish_ArcaneAcuity_Helmet",
+    "type": "Armor",
+    "using": "_Head_Magic_Leather",
+    "RootTemplate": "df71a665-a179-43b3-89ee-2e355166fa9b",
+    "Rarity": "Uncommon",
+    "PassivesOnEquip": "MAG_ElementalGish_ArcaneAcuity_Helmet_Passive",
+    "Unique": "1"
+  },
+  {
+    "name": "MAG_Gish_ArcaneSynergy_Circlet",
+    "type": "Armor",
+    "using": "_Head_Magic_Circlet",
+    "RootTemplate": "f6585fc7-22bb-4e58-b4a6-bbb56e48a86f",
+    "ValueUUID": "a229f048-70b0-4b0c-88cb-29b5c6bdb2d0",
+    "Rarity": "Rare",
+    "PassivesOnEquip": "MAG_Gish_ArcaneSynergy_Circlet_Passive",
+    "MinAmount": "1",
+    "MaxAmount": "1",
+    "Priority": "1",
+    "Unique": "1",
+    "MinLevel": "1"
+  },
+  {
+    "name": "MAG_Radiant_Radiating_Helmet",
+    "type": "Armor",
+    "using": "_Head_Magic_Metal",
+    "RootTemplate": "5b3c40c5-b0c0-44b5-9b75-e642069fd2cc",
+    "Rarity": "Uncommon",
+    "PassivesOnEquip": "MAG_Radiant_Radiating_Helmet_Passive",
+    "Unique": "1"
+  },
+  {
+    "name": "MAG_ZOC_Force_Helmet",
+    "type": "Armor",
+    "using": "_Head_Magic_Metal",
+    "RootTemplate": "5ac19da8-48bf-4a75-b312-430c1ab7cb41",
+    "ValueUUID": "a229f048-70b0-4b0c-88cb-29b5c6bdb2d0",
+    "Rarity": "Rare",
+    "Boosts": "RollBonus(SavingThrow, 1, Constitution);UnlockSpell(Shout_MAG_PullingShout)",
+    "Unique": "1"
+  },
+  {
+    "name": "MAG_Fire_ArcaneAcuityOnFireDamage_Hat",
+    "type": "Armor",
+    "using": "_Head_Magic",
+    "RootTemplate": "dbd8a255-771c-4c3e-b3d6-65d744b2cbd8",
+    "Rarity": "Uncommon",
+    "PassivesOnEquip": "MAG_Fire_ArcaneAcuityOnFireDamage_Hat_Passive",
+    "MinAmount": "1",
+    "MaxAmount": "1",
+    "Priority": "1",
+    "Unique": "1",
+    "MinLevel": "1"
+  },
+  {
+    "name": "MAG_Thunder_ArcaneAcuityOnThunderDamage_Hat",
+    "type": "Armor",
+    "using": "_Head_Magic",
+    "RootTemplate": "fa68c8ad-67d7-4680-88bc-f0b066e71761",
+    "Rarity": "Uncommon",
+    "PassivesOnEquip": "MAG_Thunder_ArcaneAcuityOnThunderDamage_Hat_Passive",
+    "MinAmount": "1",
+    "MaxAmount": "1",
+    "Priority": "1",
+    "Unique": "1",
+    "MinLevel": "1"
+  },
+  {
+    "name": "MAG_Shadow_CriticalBoostWhileObscured_Helmet",
+    "type": "Armor",
+    "using": "_Head_Magic_Leather",
+    "RootTemplate": "8aaf7649-5bee-442a-9192-5e8abd723c55",
+    "Rarity": "Uncommon",
+    "PassivesOnEquip": "MAG_Shadow_CriticalBoostWhileObscured_Helmet_Passive",
+    "StatusOnEquip": "MAG_SHADOW_OBSCURITY_CRITICAL_OWNER_TECHNICAL",
+    "Unique": "1"
+  },
+  {
+    "name": "MAG_Shadow_SpellDCBonusWhileObscured_Circlet",
+    "type": "Armor",
+    "using": "_Head_Magic_Circlet",
+    "RootTemplate": "f0e42b7e-4d6b-46fb-85d6-d577afc72040",
+    "Rarity": "Uncommon",
+    "PassivesOnEquip": "MAG_Shadow_SpellDCBonusWhileObscured_Circlet_Passive",
+    "StatusOnEquip": "MAG_SHADOW_OBSCURITY_SPELL_DC_OWNER_TECHNICAL",
+    "MinAmount": "1",
+    "MaxAmount": "1",
+    "Priority": "1",
+    "Unique": "1",
+    "MinLevel": "1"
+  },
+  {
+    "name": "MAG_CQCaster_SpellDCBonusWhileThreatened_Circlet",
+    "type": "Armor",
+    "using": "_Head_Magic_Circlet",
+    "RootTemplate": "4def305d-0141-4811-b1d1-353d323f5f2a",
+    "Rarity": "Uncommon",
+    "PassivesOnEquip": "MAG_CQCaster_SpellDCBonusWhileThreatened_Circlet_Passive",
+    "StatusOnEquip": "MAG_CQCASTER_SPELLDC_BONUS_OWNER_TECHNICAL",
+    "MinAmount": "1",
+    "MaxAmount": "1",
+    "Priority": "1",
+    "Unique": "1",
+    "MinLevel": "1"
+  },
+  {
+    "name": "MAG_Enforcer_RejunevatingKnock_Helmet",
+    "type": "Armor",
+    "using": "_Head_Magic_Metal",
+    "RootTemplate": "e9d1d363-5ebc-41ef-bb87-0db20780765d",
+    "Rarity": "Uncommon",
+    "PassivesOnEquip": "MAG_Enforcer_RejunevatingKnock_Helmet_Passive",
+    "Unique": "1"
+  },
+  {
+    "name": "CRE_MAG_Psychic_Githborn_Circlet",
+    "type": "Armor",
+    "using": "_Head_Magic_Circlet",
+    "RootTemplate": "8a17f2b1-5c5d-4bb0-8b2e-408e837c4d1f",
+    "ValueUUID": "a229f048-70b0-4b0c-88cb-29b5c6bdb2d0",
+    "Rarity": "Rare",
+    "PassivesOnEquip": "MAG_Githborn_Circlet_Passive",
+    "MinAmount": "1",
+    "MaxAmount": "1",
+    "Priority": "1",
+    "Unique": "1",
+    "MinLevel": "1"
+  },
+  {
+    "name": "MAG_Illithid_Regen_Circlet",
+    "type": "Armor",
+    "using": "_Head_Magic_Circlet",
+    "RootTemplate": "4b3d2d3d-3dd5-4872-af6c-7acb3756b6c7",
+    "ValueUUID": "a229f048-70b0-4b0c-88cb-29b5c6bdb2d0",
+    "Rarity": "Rare",
+    "PassivesOnEquip": "MAG_Illithid_Regen_Circlet_Passive",
+    "MinAmount": "1",
+    "MaxAmount": "1",
+    "Priority": "1",
+    "Unique": "1",
+    "MinLevel": "1"
+  },
+  {
+    "name": "MAG_Myrkulites_CircletOfMyrkul_Circlet",
+    "type": "Armor",
+    "using": "_Head_Magic_Circlet",
+    "RootTemplate": "d2a4e407-b5de-4f0b-ab7a-75f9bf5041dd",
+    "ValueUUID": "a229f048-70b0-4b0c-88cb-29b5c6bdb2d0",
+    "Rarity": "Rare",
+    "Boosts": "UnlockSpell(Target_MAG_Myrkulites_AnimateDead)",
+    "PassivesOnEquip": "MAG_Myrkulites_CircletOfMyrkul_Circlet_Passive",
+    "StatusOnEquip": "MAG_MYRKULITES_UNDEAD_PRESENCE",
+    "MinAmount": "1",
+    "MaxAmount": "1",
+    "Priority": "1",
+    "Unique": "1",
+    "MinLevel": "1"
+  },
+  {
+    "name": "MAG_Monk_Magic_Hat",
+    "type": "Armor",
+    "using": "_Head_Magic",
+    "RootTemplate": "4d444e63-152c-48b7-a198-7027fb5904f0",
+    "ValueUUID": "a229f048-70b0-4b0c-88cb-29b5c6bdb2d0",
+    "Rarity": "Rare",
+    "PassivesOnEquip": "MAG_Monk_Magic_Hat_Passive",
+    "MinAmount": "1",
+    "MaxAmount": "1",
+    "Priority": "1",
+    "Unique": "1",
+    "MinLevel": "1"
+  },
+  {
+    "name": "MAG_Monk_SoulPerception_Hat",
+    "type": "Armor",
+    "using": "MAG_Monk_Magic_Hat",
+    "RootTemplate": "bfd9ef48-7251-4259-86b0-6646f5f99d72",
+    "ValueUUID": "adfdafe5-f4da-4c64-a1e6-a33d626437d2",
+    "Rarity": "VeryRare",
+    "Boosts": "UnlockSpell(Shout_MAG_Monk_DetectThought)",
+    "PassivesOnEquip": "MAG_Monk_Martial_Lethality_Passive"
+  },
+  {
+    "name": "MAG_Infernal_Metal_Helmet",
+    "type": "Armor",
+    "using": "_Head_Magic_Metal",
+    "RootTemplate": "1c198060-6b6a-41c5-82ce-a3d3c3d76404",
+    "ValueUUID": "c5ad02e9-b4d4-4df1-a9cd-02b80d017eaa",
+    "Rarity": "VeryRare",
+    "Boosts": "CriticalHit(AttackTarget,Success,Never);UnlockSpell(Target_MAG_Legendary_ImmolatingGaze)",
+    "PassivesOnEquip": "MAG_Infernal_Metal_Helmet_InfernalSight_Passive;MAG_MagicalDurability_Passive",
+    "Unique": "1",
+    "Proficiency Group": ""
+  },
+  {
+    "name": "MAG_LC_Jannath_Hat",
+    "type": "Armor",
+    "using": "_Head_Magic",
+    "RootTemplate": "62189421-f3e5-4ebc-927a-26bc0ebf844a",
+    "ValueUUID": "c5ad02e9-b4d4-4df1-a9cd-02b80d017eaa",
+    "Rarity": "VeryRare",
+    "Boosts": "Advantage(Skill, Persuasion);Advantage(Skill, Deception)",
+    "MinAmount": "1",
+    "MaxAmount": "1",
+    "Priority": "1",
+    "Unique": "1",
+    "MinLevel": "1"
+  },
+  {
+    "name": "MAG_WYRM_OfBalduran_Helmet",
+    "type": "Armor",
+    "using": "_Head_Magic_Metal",
+    "RootTemplate": "0a64283a-1fc4-45cd-9e5e-f463f6b762ea",
+    "ValueUUID": "f46eb019-edd0-4216-99df-9dae89a83ce7",
+    "Rarity": "Legendary",
+    "Boosts": "CriticalHit(AttackTarget,Success,Never)",
+    "PassivesOnEquip": "MAG_HelmOfBalduran_MaxHP_Passive;MAG_HelmOfBalduran_Protection_Passive;MAG_StunnImmunity_Passive",
+    "StatusOnEquip": "MAG_HELM_OF_BALDURAN_REGENERATION",
+    "Unique": "1"
+  },
+  {
+    "name": "UNI_DarkJusticiar_Helmet",
+    "type": "Armor",
+    "using": "ARM_Helmet_Metal",
+    "RootTemplate": "3523b640-e9da-4d89-b031-6ffe1d5fd3ed",
+    "ValueUUID": "adfdafe5-f4da-4c64-a1e6-a33d626437d2",
+    "Rarity": "VeryRare",
+    "PassivesOnEquip": "MAG_Lesser_MagicalDurability_Passive;MAG_Shadow_CriticalBoostWhileObscured_Helmet_Passive",
+    "StatusOnEquip": "MAG_SHADOW_OBSCURITY_CRITICAL_OWNER_TECHNICAL",
+    "Unique": "1"
+  },
+  {
+    "name": "UNI_OrpheusChains_Helmet",
+    "type": "Armor",
+    "using": "_Head_Magic",
+    "RootTemplate": "520666df-5f1b-4fd9-983e-c0753f224855",
+    "Boosts": "",
+    "Unique": "1"
+  },
+  {
+    "name": "MAG_Bhaalist_Hat",
+    "type": "Armor",
+    "using": "_Head_Magic",
+    "RootTemplate": "d5d22dfc-bba4-4e2c-ba71-c804d3b47919",
+    "ValueUUID": "c5ad02e9-b4d4-4df1-a9cd-02b80d017eaa",
+    "Rarity": "VeryRare",
+    "Boosts": "UnlockSpell(Shout_MAG_SeeInvisibility)",
+    "PassivesOnEquip": "MAG_Bhalist_Hat_Passive",
+    "MinAmount": "1",
+    "MaxAmount": "1",
+    "Priority": "1",
+    "Unique": "1",
+    "MinLevel": "1"
+  },
+  {
+    "name": "MAG_OfTheShapeshifter_Mask",
+    "type": "Armor",
+    "using": "UND_Justiciar_Mask_Magic",
+    "RootTemplate": "5d66776d-0650-4512-b300-b2ac38e2be3a",
+    "ValueUUID": "f46eb019-edd0-4216-99df-9dae89a83ce7",
+    "ValueOverride": "1",
+    "Rarity": "Legendary",
+    "Boosts": "UnlockSpell(Shout_DisguiseSelf_MaskOfManyFaces)",
+    "Proficiency Group": ""
+  },
+  {
+    "name": "MAG_Oathbreaker_Helmet",
+    "type": "Armor",
+    "using": "_Head_Magic_Metal",
+    "RootTemplate": "ae1dc399-3706-447e-8c79-f8a35c035ec4",
+    "Unique": "1"
+  },
+  {
+    "name": "DLC_DD_Beasts_Tricorn",
+    "type": "Armor",
+    "using": "_Head_Magic",
+    "RootTemplate": "d7696865-e8c2-4c44-a890-a43f5b6f9752",
+    "ValueLevel": "",
+    "ValueUUID": "4c5217d8-0232-4592-9e32-2fd729123f53",
+    "ValueOverride": "1",
+    "Rarity": ""
+  },
+  {
+    "name": "MAG_Lesser_Infernal_Metal_Helmet",
+    "type": "Armor",
+    "using": "_Head_Magic_Metal",
+    "RootTemplate": "2b69a73f-0d1b-4514-bdae-5565a8045e26",
+    "ValueUUID": "a229f048-70b0-4b0c-88cb-29b5c6bdb2d0",
+    "Rarity": "Rare",
+    "Boosts": "RollBonus(SavingThrow, 1, Constitution)",
+    "PassivesOnEquip": "MAG_MagicalDurability_Passive",
+    "Unique": "1"
+  },
+  {
+    "name": "UNI_ARM_OfTeleportation_Helm",
+    "type": "Armor",
+    "using": "ARM_Hat",
+    "RootTemplate": "fef0dda1-1d06-45b5-a302-a31e545b8ede",
+    "ValueUUID": "240eb257-ef20-4877-89bd-6956b4b7c41a",
+    "Rarity": "Rare",
+    "Boosts": "UnlockSpell(Teleportation_MAG_ArcaneGate)",
+    "Unique": "1"
+  },
+  {
+    "name": "UNI_ARM_Sarevok_Horned_Helmet",
+    "type": "Armor",
+    "using": "ARM_Helmet_Metal",
+    "RootTemplate": "139b28dc-7db0-40b2-a383-3a4ce4c09812",
+    "ValueUUID": "adfdafe5-f4da-4c64-a1e6-a33d626437d2",
+    "Rarity": "VeryRare",
+    "PassivesOnEquip": "MAG_Sarevok_HornedHelmet_DeathbringerSight_Passive;MAG_LC_Cyric_FearImmunity_Amulet_Passive",
+    "Unique": "1"
+  },
+  {
+    "name": "MAG_BonusAttack_AgainstMarked_Circlet",
+    "type": "Armor",
+    "using": "ARM_Circlet",
+    "RootTemplate": "1e59513c-a787-4f77-bcef-675ac4199daf",
+    "ValueUUID": "c5ad02e9-b4d4-4df1-a9cd-02b80d017eaa",
+    "Rarity": "VeryRare",
+    "PassivesOnEquip": "MAG_BonusAttack_AgainstMarked_Passive",
+    "Unique": "1"
+  },
+  {
+    "name": "MAG_GleamingSorcery_Hat",
+    "type": "Armor",
+    "using": "ARM_Hat",
+    "RootTemplate": "76ce9b38-9203-437f-9962-4be4c4ad1193",
+    "ValueLevel": "8",
+    "ValueUUID": "c5ad02e9-b4d4-4df1-a9cd-02b80d017eaa",
+    "Rarity": "VeryRare",
+    "Boosts": "Ability(Charisma, 2, 22)",
+    "Unique": "1"
+  },
+  {
+    "name": "MAG_Barbarian_BoneSpike_Helmet",
+    "type": "Armor",
+    "using": "MAG_Monk_Magic_Hat",
+    "RootTemplate": "72152951-3670-4004-b275-6b722c498bbc",
+    "ValueUUID": "c5ad02e9-b4d4-4df1-a9cd-02b80d017eaa",
+    "Rarity": "VeryRare",
+    "Boosts": "Skill(Intimidation, 2);UnlockSpell(Target_MAG_MenacingAttack)",
+    "PassivesOnEquip": "MAG_Barbarian_Helmet_BoneSpike_Passive",
+    "Unique": "1"
+  },
+  {
+    "name": "MAG_BarbMonk_Cloth_Hat_A_2_Late",
+    "type": "Armor",
+    "using": "ARM_Hat",
+    "RootTemplate": "bfd9ef48-7251-4259-86b0-6646f5f99d72",
+    "ValueUUID": "c5ad02e9-b4d4-4df1-a9cd-02b80d017eaa",
+    "Rarity": "VeryRare",
+    "Unique": "1"
+  },
+  {
+    "name": "MAG_BarbMonk_Cloth_Hat_A_1",
+    "type": "Armor",
+    "using": "ARM_Hat",
+    "RootTemplate": "0d109073-74f6-4e35-80f7-4da10bfcf3b9",
+    "ValueUUID": "a229f048-70b0-4b0c-88cb-29b5c6bdb2d0",
+    "Rarity": "Rare",
+    "Unique": "1"
+  },
+  {
+    "name": "MAG_BarbMonk_Cloth_Hat_A_1_Late",
+    "type": "Armor",
+    "using": "ARM_Hat",
+    "RootTemplate": "8eece655-bd99-4451-8ce0-f763edec09a4",
+    "ValueUUID": "a229f048-70b0-4b0c-88cb-29b5c6bdb2d0",
+    "Rarity": "Rare",
+    "PassivesOnEquip": "MAG_SpellSaveDC_Enchantment_Lesser_Passive;MAG_InitiativeBonus_1_Passive",
+    "Unique": "1"
+  },
+  {
+    "name": "MAG_Wizard_Pointy_Hat",
+    "type": "Armor",
+    "using": "ARM_Hat",
+    "RootTemplate": "6c2e4f84-a8f2-4a91-81bf-488b497718a2",
+    "ValueUUID": "a229f048-70b0-4b0c-88cb-29b5c6bdb2d0",
+    "Rarity": "Rare",
+    "PassivesOnEquip": "MAG_Wizard_PointyHat_Passive",
+    "Unique": "1"
+  },
+  {
+    "name": "MAG_EndGameCaster_Circlet",
+    "type": "Armor",
+    "using": "ARM_Circlet",
+    "RootTemplate": "5cd6935a-4be9-4018-9fc2-e340b96ac519",
+    "ValueUUID": "c5ad02e9-b4d4-4df1-a9cd-02b80d017eaa",
+    "Rarity": "VeryRare",
+    "Unique": "1"
+  },
+  {
+    "name": "MAG_EndGameCaster_Hood",
+    "type": "Armor",
+    "using": "ARM_Hat",
+    "RootTemplate": "c5a627ff-7fc5-4cde-81ca-e4fb57cb38d6",
+    "ValueUUID": "c5ad02e9-b4d4-4df1-a9cd-02b80d017eaa",
+    "Rarity": "VeryRare",
+    "PassivesOnEquip": "MAG_ArcaneEnchantment_Passive",
+    "Unique": "1"
+  },
+  {
+    "name": "MAG_Hat_Butler",
+    "type": "Armor",
+    "using": "ARM_Hat",
+    "RootTemplate": "14b2e775-9734-4fa0-82c3-2e560b8f2e2f",
+    "ValueUUID": "a229f048-70b0-4b0c-88cb-29b5c6bdb2d0",
+    "Rarity": "Rare",
+    "PassivesOnEquip": "MAG_ButlerHat_Passive;MAG_Multitasking_Passive",
+    "Unique": "1"
+  },
+  {
+    "name": "MAG_Hat_Circushat",
+    "type": "Armor",
+    "using": "ARM_Hat",
+    "RootTemplate": "42aa49c5-8ad2-4c2d-bb60-16016fa53205",
+    "ValueUUID": "a229f048-70b0-4b0c-88cb-29b5c6bdb2d0",
+    "Rarity": "Rare",
+    "PassivesOnEquip": "MAG_HaHaHat_Passive",
+    "Unique": "1"
+  },
+  {
+    "name": "MAG_Druid_Wildshape_Hat",
+    "type": "Armor",
+    "using": "ARM_Hat",
+    "RootTemplate": "e3720399-7a78-4073-aff7-cb0fb37b13eb",
+    "ValueUUID": "c5ad02e9-b4d4-4df1-a9cd-02b80d017eaa",
+    "Rarity": "VeryRare",
+    "Boosts": "Skill(Nature, 1)",
+    "PassivesOnEquip": "MAG_Druid_ExtraWildShape_Passive;MAG_Druid_ExtraWildShape_Cooldown_Passive",
+    "StatusOnEquip": "MAG_DRUID_EXTRA_WILDSHAPE_TECHNICAL",
+    "Unique": "1"
+  },
+  {
+    "name": "MAG_ofMarksmanship_Hat",
+    "type": "Armor",
+    "using": "ARM_Hat",
+    "RootTemplate": "f67b0733-ad73-4d1b-94fd-e3e0236623ca",
+    "ValueUUID": "f0e7be35-8be4-483d-afa8-dc9a104ea758",
+    "Rarity": "Uncommon",
+    "PassivesOnEquip": "MAG_Marksmanship_Passive",
+    "Unique": "1"
+  },
+  {
+    "name": "MAG_OfSharpCaster_Hat",
+    "type": "Armor",
+    "using": "ARM_Hat",
+    "RootTemplate": "5be5a605-ddeb-4244-ba05-551ec86297fa",
+    "ValueUUID": "a229f048-70b0-4b0c-88cb-29b5c6bdb2d0",
+    "ValueScale": "0.4",
+    "Rarity": "Rare",
+    "PassivesOnEquip": "MAG_OfSharpCaster_Hat_Passive",
+    "Unique": "1"
+  },
+  {
+    "name": "MAG_BarbMonk_Leather_Circlet",
+    "type": "Armor",
+    "using": "ARM_Circlet",
+    "RootTemplate": "48920bf4-85b0-44a1-9f6a-0ad8b493fa47",
+    "ValueUUID": "a229f048-70b0-4b0c-88cb-29b5c6bdb2d0",
+    "Rarity": "Rare",
+    "PassivesOnEquip": "MAG_MartialBravery_Passive",
+    "Unique": "1"
+  },
+  {
+    "name": "MAG_Hat_Barbarian_Hide",
+    "type": "Armor",
+    "using": "ARM_Hat",
+    "RootTemplate": "271af9f0-409d-4b14-8277-95a36b8dd543",
+    "ValueUUID": "c5ad02e9-b4d4-4df1-a9cd-02b80d017eaa",
+    "ValueScale": "1",
+    "Rarity": "VeryRare",
+    "PassivesOnEquip": "MAG_Barbarian_Hide_Helmet_Bloodseeker_Passive;MAG_Barbarian_Hide_Helmet_Bloodthirsty_Passive",
+    "StatusOnEquip": "MAG_BARBARIAN_HIDE_TECHNICAL",
+    "Unique": "1"
+  },
+  {
+    "name": "MAG_Helmet_Human_Watcher",
+    "type": "Armor",
+    "using": "ARM_Helmet_Metal",
+    "RootTemplate": "c2ef4013-e6d1-48da-99f0-db486c223a90",
+    "ValueUUID": "a229f048-70b0-4b0c-88cb-29b5c6bdb2d0",
+    "Rarity": "Rare",
+    "Boosts": "Advantage(SavingThrow, Constitution)",
+    "PassivesOnEquip": "MAG_Watcher_Helmet_Darkvision_Passive",
+    "Unique": "1"
+  },
+  {
+    "name": "ARM_Hat",
+    "type": "Armor",
+    "using": "_Head",
+    "RootTemplate": "4d2e0931-3a01-4759-834b-8ae36749daab",
+    "ValueScale": "0.3",
+    "ArmorType": "Cloth"
+  },
+  {
+    "name": "ARM_Hat_Rich",
+    "type": "Armor",
+    "using": "ARM_Hat",
+    "RootTemplate": "4d2e0931-3a01-4759-834b-8ae36749daab"
+  },
+  {
+    "name": "ARM_Hat_Wizard_A",
+    "type": "Armor",
+    "using": "ARM_Hat_Rich",
+    "RootTemplate": "07ad0e9f-7fb4-418f-a1ef-06b431c252be"
+  },
+  {
+    "name": "ARM_Hat_Wizard_B",
+    "type": "Armor",
+    "using": "ARM_Hat_Wizard_A",
+    "RootTemplate": "65f78de8-f6aa-4080-84de-73e654b02883"
+  },
+  {
+    "name": "ARM_Hat_Wizard_C",
+    "type": "Armor",
+    "using": "ARM_Hat_Wizard_A",
+    "RootTemplate": "a05f4468-4e26-4856-b996-ba8ab8e55a14"
+  },
+  {
+    "name": "ARM_Hat_Wizard_D",
+    "type": "Armor",
+    "using": "ARM_Hat_Wizard_A",
+    "RootTemplate": "b8bd447c-eef3-441e-9fb8-303b5b926432"
+  },
+  {
+    "name": "ARM_Hat_Wizard_E",
+    "type": "Armor",
+    "using": "ARM_Hat_Wizard_A",
+    "RootTemplate": "e24d6a8b-5489-4c5c-b133-b435fda3918a"
+  },
+  {
+    "name": "ARM_Hat_Wizard_F",
+    "type": "Armor",
+    "using": "ARM_Hat_Wizard_A",
+    "RootTemplate": "694320b7-726b-4804-9dd6-fbc8a307a05f"
+  },
+  {
+    "name": "ARM_Hat_Wizard_G",
+    "type": "Armor",
+    "using": "ARM_Hat_Wizard_A",
+    "RootTemplate": "ff47e1c4-f49f-460c-b6a6-dce635fa48c4"
+  },
+  {
+    "name": "ARM_Hat_Wizard_H",
+    "type": "Armor",
+    "using": "ARM_Hat_Wizard_A",
+    "RootTemplate": "4a4e2cf1-a02f-41c4-b68f-5f5301f74577"
+  },
+  {
+    "name": "ARM_Hat_MuffinHat_A",
+    "type": "Armor",
+    "using": "ARM_Hat_Rich",
+    "RootTemplate": "90008c9b-ca19-46c1-9c2b-7164983de6da"
+  },
+  {
+    "name": "ARM_Hat_MuffinHat_B",
+    "type": "Armor",
+    "using": "ARM_Hat_Rich",
+    "RootTemplate": "3d3c949f-8fff-4133-b12e-3c739dbd6428"
+  },
+  {
+    "name": "ARM_Jester_Hat",
+    "type": "Armor",
+    "using": "ARM_Hat",
+    "RootTemplate": "56769fcd-f35c-4569-b7ef-9a974fd2e226"
+  },
+  {
+    "name": "ARM_MerregonMask",
+    "type": "Armor",
+    "using": "_Head",
+    "RootTemplate": "b2409a86-dc0d-4193-9985-4f11419c64be",
+    "ValueLevel": "6",
+    "StatusOnEquip": "UNI_MERREGONMASK_EFFECT_TECHNICAL"
+  },
+  {
+    "name": "ARM_Helmet_Leather",
+    "type": "Armor",
+    "using": "_Head",
+    "RootTemplate": "c58a1f91-ec1b-49c8-96ab-d94d4be4b584",
+    "ValueLevel": "3",
+    "Boosts": "RollBonus(SavingThrow, 1, Dexterity)",
+    "ArmorType": "Leather",
+    "MinAmount": "1",
+    "MaxAmount": "1",
+    "Priority": "1",
+    "MinLevel": "1",
+    "Proficiency Group": "LightArmor"
+  },
+  {
+    "name": "ARM_Helmet_Metal",
+    "type": "Armor",
+    "using": "_Head",
+    "RootTemplate": "67a87879-533e-4f9b-8274-f5bd37748ace",
+    "ValueLevel": "5",
+    "Weight": "1",
+    "Boosts": "RollBonus(SavingThrow, 1, Constitution)",
+    "ArmorType": "Plate",
+    "MinAmount": "1",
+    "MaxAmount": "1",
+    "Priority": "1",
+    "MinLevel": "1",
+    "Proficiency Group": "MediumArmor"
+  },
+  {
+    "name": "ARM_Circlet",
+    "type": "Armor",
+    "using": "_Head",
+    "RootTemplate": "348b0f52-8960-43e0-ae38-c1d3b1974c3f"
+  },
+  {
+    "name": "_Head_Magic",
+    "type": "Armor",
+    "using": "ARM_Hat",
+    "Level": "1",
+    "ValueLevel": "4",
+    "ValueUUID": "f0e7be35-8be4-483d-afa8-dc9a104ea758",
+    "ValueScale": "1",
+    "Rarity": "Uncommon"
+  },
+  {
+    "name": "_Head_Magic_Leather",
+    "type": "Armor",
+    "using": "ARM_Helmet_Leather",
+    "ValueUUID": "f0e7be35-8be4-483d-afa8-dc9a104ea758",
+    "Rarity": "Uncommon"
+  },
+  {
+    "name": "_Head_Magic_Metal",
+    "type": "Armor",
+    "using": "ARM_Helmet_Metal",
+    "ValueUUID": "f0e7be35-8be4-483d-afa8-dc9a104ea758",
+    "Rarity": "Uncommon"
+  },
+  {
+    "name": "_Head_Magic_Circlet",
+    "type": "Armor",
+    "using": "ARM_Circlet",
+    "ValueLevel": "4",
+    "ValueUUID": "f0e7be35-8be4-483d-afa8-dc9a104ea758",
+    "Rarity": "Uncommon"
+  },
+  {
+    "name": "ARM_CircletOfBlasting",
+    "type": "Armor",
+    "using": "_Head_Magic_Circlet",
+    "RootTemplate": "3abdbb8a-4701-4397-8fce-7a8dd8a0bb84",
+    "ValueLevel": "5",
+    "ValueUUID": "a229f048-70b0-4b0c-88cb-29b5c6bdb2d0",
+    "Rarity": "Rare",
+    "Boosts": "UnlockSpell(Projectile_ScorchingRay_CircletOfBlasting)",
+    "Unique": "1"
+  },
+  {
+    "name": "ARM_HeadbandOfIntellect",
+    "type": "Armor",
+    "using": "_Head_Magic_Circlet",
+    "RootTemplate": "8779b30f-dc6f-4264-b7af-9dc0eff51bb0",
+    "ValueLevel": "6",
+    "ValueUUID": "a229f048-70b0-4b0c-88cb-29b5c6bdb2d0",
+    "Rarity": "Rare",
+    "Boosts": "AbilityOverrideMinimum(Intelligence,19)"
+  },
+  {
+    "name": "UNI_ShadowheartCirclet",
+    "type": "Armor",
+    "using": "ARM_Circlet",
+    "RootTemplate": "437aede9-dea6-46fd-ade2-fc9cfef16c3d"
+  }
+]

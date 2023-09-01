@@ -22,7 +22,7 @@
                     <attribute id="Tags" type="LSString" value=""/>
                     <attribute id="Type" type="FixedString" value="Add-on"/>
 					<attribute id="UUID" type="FixedString" value="c1074e54-7455-4ece-ad06-12a32f93e000"/> Generate new UUID
-					<attribute id="Version" type="int64" value="1"/>
+					<attribute id="Version" type="int64" value="2"/>
                     <children>
                         <node id="PublishVersion">
                             <attribute id="Version" type="int64" value="1"/>
