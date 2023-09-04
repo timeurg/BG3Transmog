@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="6" build="5" />
+	<region id="TextureBank">
+		<node id="TextureBank">
+			<children>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="87f18c1c-84ad-4c62-b5c3-04cd8091d982" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="BOS_87f18c1c84ad4c62b5c304cd8091d982" />
+					<attribute id="SRGB" type="bool" value="True" />
+					<attribute id="SourceFile" type="LSString" value="Public/GustavDev/Assets/Textures/Icons/BOS_87f18c1c84ad4c62b5c304cd8091d982.dds" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="BOS_87f18c1c84ad4c62b5c304cd8091d982" />
+					<attribute id="Type" type="int64" value="0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="1" />
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

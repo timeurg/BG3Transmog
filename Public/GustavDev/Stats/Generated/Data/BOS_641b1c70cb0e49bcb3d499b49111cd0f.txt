@@ -1,0 +1,5 @@
+new entry "BOS_641b1c70cb0e49bcb3d499b49111cd0f"
+type "Object"
+using "OBJ_Bag"
+data "RootTemplate" "641b1c70-cb0e-49bc-b3d4-99b49111cd0f"
+data "Rarity" "Common"

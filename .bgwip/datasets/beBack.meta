@@ -1,0 +1,8 @@
+{
+  "type": "Data",
+  "command": [
+    "beBack",
+    "test/Armor.txt",
+    "using:_Back|ARM_Cloak"
+  ]
+}

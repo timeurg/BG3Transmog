@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="330" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="41b89495-8878-4563-a971-339d7114a002" />
+					<attribute id="Name" type="LSString" value="BOS_41b8949588784563a971339d7114a002" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="3e6aac21-333b-4812-a554-376c2d157ba9" />
+					<attribute id="DisplayName" type="TranslatedString" handle="ha61e6732g29e3g47a0g8ba9g5890bf2834a7" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h0513bb29g9957g49adgaa2ag74896db0304c" version="1" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="he5fbfcaeg72deg45fcgbdbdgd324adc4cda3" version="1" />
+					<attribute id="Icon" type="FixedString" value="BOS_41b8949588784563a971339d7114a002" />
+					<attribute id="Stats" type="FixedString" value="BOS_41b8949588784563a971339d7114a002" />
+                    <attribute id="StoryItem" type="bool" value="False" />
+					<attribute id="ContainerAutoAddOnPickup" type="bool" value="False" />
+					<attribute id="ContainerContentFilterCondition" type="LSString" value="" />
+					<children>
+						<node id="GameMaster" />
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="TMG_LEGS_TT" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

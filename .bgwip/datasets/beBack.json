@@ -1,0 +1,642 @@
+[
+  {
+    "name": "AMX_CAPE_OCEANQUEEN_1A",
+    "type": "Armor",
+    "using": "ARM_Cloak",
+    "RootTemplate": "7e1f8ede-03e8-45ad-997d-bf41d1349ab9",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_SHOULDERPADS_LEATHER_ARMOR_A2_BROWN_2A",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "e002a3c9-15e5-45d6-98ca-130b8e52a73d",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_SHOULDERPADS_LEATHER_ARMOR_A1_BROWN_1A",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "cc78dd43-6edc-4170-96b4-3de788c7ac48",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_SHOULDERPADS_LEATHER_ARMOR_A2_BLACK_2A",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "4cc00aa2-6576-4b20-9d2f-05ea9b710666",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_SHOULDERPADS_LEATHER_ARMOR_A1_BLACK_1A",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "8d3826f8-1358-4224-b055-254d49a4da76",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_SHOULDERPADS_FLAMINGFIST_CHAINMAIL_1A",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "3d47f402-616a-4e7c-bda1-fc30ae9e9b67",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_SHOULDERPADS_DRESS_RICH_B_1A_ORIGINAL",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "ca02f183-7130-4b03-8263-4f42dc6faa19",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_CLOAK_CLT_JACKET_A_BLACK_1A",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "c4e6297d-40e6-4d81-a6c8-bc216bd871a7",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_SHOULDERPADS_CHAINMAIL_A1_STEEL_1A",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "e0931127-085d-4a66-a6b7-ff59c8ad8c3c",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_SHOULDERPADS_CHAINMAIL_A1_STEELGOLD_1A",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "361e2e04-f09c-40c7-a70e-5888f64d5c60",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_SHOULDERPADS_CHAINMAIL_A0_BROWN_1A",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "530883a2-842c-4135-b169-1183acf83802",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_SHOULDERPADS_CHAINMAIL_A0_BLACK_1A",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "d13af6c6-a853-4594-9add-2e1597162e19",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_CLOAK_SCANTY_METAL_ARMOR_1B",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "157253ca-f99f-4b8b-9bef-ebee1d9f027e",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_CLOAK_SCANTY_METAL_ARMOR_1A",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "bf70f5a3-180e-4b7b-a2ca-8b2dd161f712",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_DRUID_LEAVES_CLOAK_1A",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "a0494b7e-e908-4312-8e4c-a4ad26af3370",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_SCARF_BLACKSMITH_1_CLOAK_BLACK",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "48192ec2-27c3-49fb-9ef9-687e0733c4d8",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_CLOAK_BLOODGUZZLER_BROWN_1F",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "d065fb0f-d2c1-446a-822f-f7ee97116604",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_CLOAK_BLOODGUZZLER_BROWN_1E",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "65ef0003-1af2-4ef0-a92d-28c73bf9c5ef",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_CLOAK_BLOODGUZZLER_BROWN_1D",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "e2cb3ed4-7f7a-4094-8efb-feb2a9438995",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_CLOAK_BLOODGUZZLER_BROWN_1C",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "808a3e5a-41c0-4af6-bb4d-ff2af5467996",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_CLOAK_BLOODGUZZLER_BROWN_1B",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "f2d0be64-91e0-49e1-a3e7-0179e1b3a2b3",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_CLOAK_BLOODGUZZLER_BROWN_1A",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "1cb761c0-8f65-4375-bc73-f99eda52470c",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_CLOAK_BLOODGUZZLER_BLACK_1F",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "69343c8a-5309-4ca8-b75b-78188052617e",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_CLOAK_BLOODGUZZLER_BLACK_1E",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "08f7b283-ccf3-4d41-8a7a-d7783f588328",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_CLOAK_BLOODGUZZLER_BLACK_1D",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "7911cdeb-7aef-4323-86c1-0edd7e311d36",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_CLOAK_BLOODGUZZLER_BLACK_1C",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "ea0bd796-9826-4f6c-88de-3db4fe57a182",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_CLOAK_BLOODGUZZLER_BLACK_1B",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "3505bc93-e0d9-4743-b877-1dd7f9eb6a29",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_CLOAK_BLOODGUZZLER_BLACK_1A",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "9a1edded-1b80-416c-b76b-b2aa5eb8ed9f",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_CLOAK_BARBARIAN_BRA_BROWN_1",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "3c124f4b-9557-4285-90ae-c791f20eb7d7",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_CHESTBELT_RUBY_BANDIT_1B_BLACK",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "896bd86b-000a-4da5-add1-4084aa01c828",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_CHESTBELT_RUBY_BANDIT_1A_BLACK",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "e2e77fe9-2959-4bc6-84ee-54d9ee89b2d9",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_CHESTBELT_RUBY_1A_BLACK",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "7765b728-472f-4eeb-9fe9-846ab5401441",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_NOBLE_ATTIRE_NECKLACE_SILVER",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "59f5d063-73cc-4461-93ae-dd6561a39838",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_NOBLE_ATTIRE_NECKLACE_GOLD",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "a47221e4-db8c-4fba-99d1-692b17bed033",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_CLOAK_BARBARIAN_BRA_BLACK_1",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "4eec1835-80f0-4392-94fd-f9551269cd91",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_CLOAK_BARBARIAN_BRA_WHITE_1",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "e9a9aac1-9917-46e9-bfaf-7b932f27bac9",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_DARKSONG_AMULET_C_CLOAK",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "28810fbb-4076-4880-9f22-10dca0d8cf37",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_DARKSONG_AMULET_B_CLOAK",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "5f7dc2f4-aad2-4a3a-99d5-5bf298bbb384",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_DARKSONG_AMULET_A_CLOAK",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "bceeeada-1695-48ef-b205-0e28c9cb483a",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_SHOULDERPADS_BANDIT_3",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "004979e1-7c68-4947-853f-d3d5623022f7",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_SHOULDERPADS_PLATE_2",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "a1c8681b-0bb4-48d6-9063-1a266632d1cd",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_SHOULDERPADS_PLATE_1",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "47770ffb-28ed-4213-bef6-6e4bdf9bba01",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_SCARF_BLACKSMITH_1_CLOAK",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "eef64c33-464d-498d-8689-a9af398114dd",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_SHOULDERPADS_BANDIT_2",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "fe1c0c38-c892-403a-b507-7e7d039f535c",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_SHOULDERPADS_BANDIT_1",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "7d868d46-acbd-4244-ada8-0d562834fb50",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_SHOULDERPADS_BGWATCH_2",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "6ba3f4fa-2019-437b-aafe-e5879aea5ea5",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_SHOULDERPADS_BGWATCH_1",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "ae5c3565-6df7-4cac-86c6-95510e7e5d3e",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_NIGHTSONG_AMULET_C_CLOAK",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "d42af893-d5ae-449f-a242-2ca005a14e30",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_NIGHTSONG_AMULET_B_CLOAK",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "fd830835-8ee7-4473-95a7-d3302eab7267",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_NIGHTSONG_AMULET_A_CLOAK",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "3b45a90a-085d-4ee2-bcce-f0bbdb3d274e",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_DARKLOVER_AMULET_1_CLOAK",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "5a06a367-0dc5-47f7-87f4-8c58ba78c2ce",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_PURELOVER_AMULET_1_CLOAK",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "0f115e0b-eef3-4059-890d-dcbe38c4dcdc",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_DAISY_AMULET_CLOAK",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "79f7da6b-4ad7-4575-88dc-231b44d1a6af",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_ANGELSONG_AMULET_B_CLOAK",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "009bd19f-32c6-48db-995d-f95a9d75fb85",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_ANGELSONG_AMULET_A_CLOAK",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "dc3528e2-dafb-4024-8a1e-d2ec7631b59c",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_MIZORA_AMULET_B_CLOAK",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "7deee022-e040-45af-8142-059409467726",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_MIZORA_AMULET_A_CLOAK",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "af118c89-a49f-445c-a745-511ac481f62c",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_DOGCOLLAR_DARK_1B_CLOAK",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "e374f6fd-975c-416f-8f2a-48a8167c8c31",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_DOGCOLLAR_DARK_1A_CLOAK",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "837420e6-e23c-4525-bcbe-e0561ab25437",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_DOGCOLLAR_1_CLOAK",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "6abc9b0e-7224-4ecc-ad02-c8b4861722b5",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "AC(1);RollBonus(SavingThrow, 1)"
+  },
+  {
+    "name": "AMX_SORCERER_COLLAR_GOLD_1",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "ebb4f989-45db-433e-94c6-aec135aaaf38",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "UnlockSpell(Target_AMX_SpeakWithDead_Amulet)"
+  },
+  {
+    "name": "AMX_SORCERER_COLLAR_SILVER_1",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "22b57dfa-96e2-413a-ad9b-714781c8a755",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "UnlockSpell(Target_AMX_SpeakWithDead_Amulet)"
+  },
+  {
+    "name": "AMX_SORCERER_COLLAR_TARNISHED_1",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "45129154-6332-428c-85f8-4c7742958da5",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "UnlockSpell(Target_AMX_SpeakWithDead_Amulet)"
+  },
+  {
+    "name": "AMX_IRONSORCERER_COLLAR_1",
+    "type": "Armor",
+    "using": "_Back",
+    "RootTemplate": "7426ec0a-2f46-4139-9692-b9ba57b5ecfe",
+    "ValueOverride": "7",
+    "Weight": "0.01",
+    "Rarity": "Rare",
+    "Boosts": "UnlockSpell(Target_AMX_SpeakWithDead_Amulet)"
+  }
+]

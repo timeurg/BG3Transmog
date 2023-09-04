@@ -1,0 +1,5 @@
+new entry "BOS_41b8949588784563a971339d7114a002"
+type "Object"
+using "OBJ_Bag"
+data "RootTemplate" "41b89495-8878-4563-a971-339d7114a002"
+data "Rarity" "Uncommon"

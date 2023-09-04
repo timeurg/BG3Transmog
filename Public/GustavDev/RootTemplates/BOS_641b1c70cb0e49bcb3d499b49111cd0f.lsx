@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="330" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="641b1c70-cb0e-49bc-b3d4-99b49111cd0f" />
+					<attribute id="Name" type="LSString" value="BOS_641b1c70cb0e49bcb3d499b49111cd0f" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="3e6aac21-333b-4812-a554-376c2d157ba9" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hbfa49622gb3c3g47a9g9f28g7605d58d028d" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h0513bb29g9957g49adgaa2ag74896db0304c" version="1" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="ha65084a7g7a71g4c62g9f14gacf1aca0f621" version="1" />
+					<attribute id="Icon" type="FixedString" value="BOS_641b1c70cb0e49bcb3d499b49111cd0f" />
+					<attribute id="Stats" type="FixedString" value="BOS_641b1c70cb0e49bcb3d499b49111cd0f" />
+                    <attribute id="StoryItem" type="bool" value="True" />
+					<attribute id="ContainerAutoAddOnPickup" type="bool" value="False" />
+					<attribute id="ContainerContentFilterCondition" type="LSString" value="" />
+					<children>
+						<node id="GameMaster" />
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="TMG_BODY2_TT" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

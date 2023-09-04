@@ -1,0 +1,8 @@
+{
+  "type": "Data",
+  "command": [
+    "beGloves",
+    "test/Armor.txt",
+    "using:_hand"
+  ]
+}
