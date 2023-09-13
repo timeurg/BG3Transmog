@@ -1,50 +1,19 @@
 new treasuretable "TMG_BODY2_TT"
 CanMerge 1
 new subtable "1,1"
-object category "I_FOR_OwlbearCubs_Armor_CAMP",1,0,0,0,0,0,0,0
+object category "I_UNI_Leather_Halsin_CAMP",1,0,0,0,0,0,0,0
 new subtable "1,1"
-object category "I_ARM_Camp_Body_Astarion_CAMP",1,0,0,0,0,0,0,0
+object category "I_UND_Justiciar_Chainshirt_Magic_CAMP",1,0,0,0,0,0,0,0
 new subtable "1,1"
-object category "I_ARM_Camp_Body_Gale_CAMP",1,0,0,0,0,0,0,0
+object category "I_MAG_LowHP_CounterOnDamage_ChainShirt_CAMP",1,0,0,0,0,0,0,0
 new subtable "1,1"
-object category "I_ARM_Camp_Body_Halsin_CAMP",1,0,0,0,0,0,0,0
+object category "I_MAG_Healer_DisengageOnHeal_ChainShirt_CAMP",1,0,0,0,0,0,0,0
 new subtable "1,1"
-object category "I_ARM_Camp_Body_Jaheira_CAMP",1,0,0,0,0,0,0,0
+object category "I_MAG_Mobility_SprintForMomentum_ChainShirt_CAMP",1,0,0,0,0,0,0,0
 new subtable "1,1"
-object category "I_ARM_Camp_Body_Karlach_CAMP",1,0,0,0,0,0,0,0
+object category "I_MAG_MeleeDebuff_AttackDebuff1_OnDamage_ScaleMail_CAMP",1,0,0,0,0,0,0,0
 new subtable "1,1"
-object category "I_ARM_Camp_Body_Laezel_CAMP",1,0,0,0,0,0,0,0
-new subtable "1,1"
-object category "I_ARM_Camp_Body_Minsc_CAMP",1,0,0,0,0,0,0,0
-new subtable "1,1"
-object category "I_ARM_Camp_Body_Minthara_CAMP",1,0,0,0,0,0,0,0
-new subtable "1,1"
-object category "I_ARM_Camp_Body_Shadowheart_CAMP",1,0,0,0,0,0,0,0
-new subtable "1,1"
-object category "I_ARM_Camp_Body_Wyll_CAMP",1,0,0,0,0,0,0,0
-new subtable "1,1"
-object category "I_ARM_Underwear_Astarion_CAMP",1,0,0,0,0,0,0,0
-new subtable "1,1"
-object category "I_ARM_Underwear_Gale_CAMP",1,0,0,0,0,0,0,0
-new subtable "1,1"
-object category "I_ARM_Underwear_Halsin_CAMP",1,0,0,0,0,0,0,0
-new subtable "1,1"
-object category "I_ARM_Underwear_Jaheira_CAMP",1,0,0,0,0,0,0,0
-new subtable "1,1"
-object category "I_ARM_Underwear_Karlach_CAMP",1,0,0,0,0,0,0,0
-new subtable "1,1"
-object category "I_ARM_Underwear_Laezel_CAMP",1,0,0,0,0,0,0,0
-new subtable "1,1"
-object category "I_ARM_Underwear_Minsc_CAMP",1,0,0,0,0,0,0,0
-new subtable "1,1"
-object category "I_ARM_Underwear_Minthara_CAMP",1,0,0,0,0,0,0,0
-new subtable "1,1"
-object category "I_ARM_Underwear_Shadowheart_CAMP",1,0,0,0,0,0,0,0
-new subtable "1,1"
-object category "I_ARM_Underwear_Wyll_CAMP",1,0,0,0,0,0,0,0
-new subtable "1,1"
-object category "I_ARM_Underwear_Helper_CAMP",1,0,0,0,0,0,0,0
-
+object category "I_MAG_MeleeDebuff_AttackDebuff2_OnDamage_SplintMail_CAMP",1,0,0,0,0,0,0,0
 
 new treasuretable "TMG_BODY_TT"
 CanMerge 1

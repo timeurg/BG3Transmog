@@ -23,7 +23,7 @@
 						<node id="InventoryList">
 							<children>
 								<node id="InventoryItem">
-									<attribute id="Object" type="FixedString" value="TMG_BODY2_TT" />
+									<attribute id="Object" type="FixedString" value="TMG_BODY_TT" />
 								</node>
 							</children>
 						</node>
