@@ -1,8 +1,0 @@
-{
-  "type": "Data",
-  "command": [
-    "beBody",
-    "test/Armor.txt",
-    "using:ARM_Robe_Body"
-  ]
-}

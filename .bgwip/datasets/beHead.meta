@@ -1,8 +1,0 @@
-{
-  "type": "Data",
-  "command": [
-    "beHead",
-    "test/Armor.txt",
-    "using:_Head"
-  ]
-}

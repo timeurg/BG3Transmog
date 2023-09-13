@@ -1,6 +1,5 @@
 new entry "TWN_TollCollector_ArmorPart_Arm_L_UNDERWEAR"
-using "ARM_Underwear"
-data Slot "Underwear"
+using "ARM_Camp_Shoes"
 data RootTemplate "def9e410-c2a3-4132-a38c-f7dc436679ad"
 data Rarity "Legendary"
 
@@ -11,8 +10,8 @@ data RootTemplate "6dce5e63-42bd-4d49-830a-e40d9641cef4"
 data Rarity "Legendary"
 
 new entry "TWN_TollCollector_ArmorPart_Torso_UNDERWEAR"
-using "ARM_Underwear"
-data Slot "Underwear"
+using "ARM_Camp_Body"
+data Slot "VanityBody"
 data RootTemplate "ee8533b8-483e-4ce6-93d4-82d5a1c29a30"
 data Rarity "Legendary"
 
@@ -23,8 +22,7 @@ data RootTemplate "17e965b2-7ae6-4b28-b545-b11469efbd9c"
 data Rarity "Legendary"
 
 new entry "TWN_TollCollector_ArmorPart_Leg_R_UNDERWEAR"
-using "ARM_Underwear"
-data Slot "Underwear"
+using "ARM_Camp_Shoes"
 data RootTemplate "cb3330bd-672d-4d4c-973c-fcc7e7c037c5"
 data Rarity "Legendary"
 

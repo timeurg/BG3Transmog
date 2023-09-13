@@ -1,8 +1,0 @@
-{
-  "type": "Data",
-  "command": [
-    "beBoots",
-    "test/Armor.txt",
-    "using:_foot"
-  ]
-}

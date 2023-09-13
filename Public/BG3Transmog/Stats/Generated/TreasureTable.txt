@@ -1164,15 +1164,24 @@ object category "T_TMG_HAND_TT",1,0,0,0,0,0,0,0
 new subtable "1,1"
 object category "T_TMG_HELMETS_TT",1,0,0,0,0,0,0,0
 
+new treasuretable "TMG_BAGS_TT"
+CanMerge 1
+new subtable "1,1"
+object category "I_BOS_641b1c70cb0e49bcb3d499b49111cd0f",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_BOS_41b8949588784563a971339d7114a002",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_BOS_87f18c1c84ad4c62b5c304cd8091d982",1,0,0,0,0,0,0,0
+
 new treasuretable "TUT_Chest_Potions"
 CanMerge 1
 new subtable "1,1"
-object category "T_TMG_ALL_TT",1,0,0,0,0,0,0,0
+object category "T_TMG_BAGS_TT",1,0,0,0,0,0,0,0
 
 new treasuretable "TUT_Chest_Grenades_Common"
 CanMerge 1
 new subtable "1,1"
-object category "T_TMG_ALL_TT",1,0,0,0,0,0,0,0
+object category "T_TMG_BAGS_TT",1,0,0,0,0,0,0,0
 
 new treasuretable "Clothes_Poor_Hat"
 CanMerge 1
@@ -1250,4 +1259,4 @@ object category "T_TMG_HAND_TT",1,0,0,0,0,0,0,0
 new treasuretable "DEN_Entrance_Trade"
 CanMerge 1
 new subtable "1,1"
-object category "T_TMG_ALL_TT",1,0,0,0,0,0,0,0
+object category "T_TMG_BAGS_TT",1,0,0,0,0,0,0,0
