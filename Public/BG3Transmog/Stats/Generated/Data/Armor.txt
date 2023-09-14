@@ -1,0 +1,5 @@
+new entry "MAG_Illithid_Carapace_Boots_UNDERWEAR"
+using "ARM_Camp_Shoes"
+data "RootTemplate" "397331d6-e86e-448d-8255-014dab6f860f"
+data "Weight" "0.01"
+data "Rarity" "Legendary"

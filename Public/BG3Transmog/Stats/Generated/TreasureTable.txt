@@ -1,20 +1,3 @@
-new treasuretable "TMG_BODY2_TT"
-CanMerge 1
-new subtable "1,1"
-object category "I_UNI_Leather_Halsin_CAMP",1,0,0,0,0,0,0,0
-new subtable "1,1"
-object category "I_UND_Justiciar_Chainshirt_Magic_CAMP",1,0,0,0,0,0,0,0
-new subtable "1,1"
-object category "I_MAG_LowHP_CounterOnDamage_ChainShirt_CAMP",1,0,0,0,0,0,0,0
-new subtable "1,1"
-object category "I_MAG_Healer_DisengageOnHeal_ChainShirt_CAMP",1,0,0,0,0,0,0,0
-new subtable "1,1"
-object category "I_MAG_Mobility_SprintForMomentum_ChainShirt_CAMP",1,0,0,0,0,0,0,0
-new subtable "1,1"
-object category "I_MAG_MeleeDebuff_AttackDebuff1_OnDamage_ScaleMail_CAMP",1,0,0,0,0,0,0,0
-new subtable "1,1"
-object category "I_MAG_MeleeDebuff_AttackDebuff2_OnDamage_SplintMail_CAMP",1,0,0,0,0,0,0,0
-
 new treasuretable "TMG_BODY_TT"
 CanMerge 1
 new subtable "1,1"
@@ -1177,84 +1160,6 @@ new treasuretable "TUT_Chest_Potions"
 CanMerge 1
 new subtable "1,1"
 object category "T_TMG_BAGS_TT",1,0,0,0,0,0,0,0
-
-new treasuretable "TUT_Chest_Grenades_Common"
-CanMerge 1
-new subtable "1,1"
-object category "T_TMG_BAGS_TT",1,0,0,0,0,0,0,0
-
-new treasuretable "Clothes_Poor_Hat"
-CanMerge 1
-new subtable "1,1"
-object category "T_TMG_HELMETS_TT",1,0,0,0,0,0,0,0
-
-new treasuretable "Clothes_Medium_Hat"
-CanMerge 1
-new subtable "1,1"
-object category "T_TMG_HELMETS_TT",1,0,0,0,0,0,0,0
-
-new treasuretable "Clothes_Poor_Random"
-CanMerge 1
-new subtable "1,1"
-object category "T_TMG_BODY_TT",1,0,0,0,0,0,0,0
-new subtable "1,1"
-object category "T_TMG_BACK_TT",1,0,0,0,0,0,0,0
-
-new treasuretable "Clothes_Medium_Random"
-CanMerge 1
-new subtable "1,1"
-object category "T_TMG_BODY_TT",1,0,0,0,0,0,0,0
-new subtable "1,1"
-object category "T_TMG_BACK_TT",1,0,0,0,0,0,0,0
-
-new treasuretable "Clothes_Poor_Shoes"
-CanMerge 1
-new subtable "1,1"
-object category "T_TMG_LEGS_TT",1,0,0,0,0,0,0,0
-new subtable "1,1"
-object category "T_TMG_HAND_TT",1,0,0,0,0,0,0,0
-
-new treasuretable "Clothes_Poor_Body"
-CanMerge 1
-new subtable "1,1"
-object category "T_TMG_BODY_TT",1,0,0,0,0,0,0,0
-new subtable "1,1"
-object category "T_TMG_BACK_TT",1,0,0,0,0,0,0,0
-
-new treasuretable "Clothes_Poor_Hat"
-CanMerge 1
-new subtable "1,1"
-object category "T_TMG_HELMETS_TT",1,0,0,0,0,0,0,0
-
-new treasuretable "Clothes_Rich_Shoes"
-CanMerge 1
-new subtable "1,1"
-object category "T_TMG_LEGS_TT",1,0,0,0,0,0,0,0
-new subtable "1,1"
-object category "T_TMG_HAND_TT",1,0,0,0,0,0,0,0
-
-new treasuretable "Clothes_Rich_Body"
-CanMerge 1
-new subtable "1,1"
-object category "T_TMG_BODY_TT",1,0,0,0,0,0,0,0
-new subtable "1,1"
-object category "T_TMG_BACK_TT",1,0,0,0,0,0,0,0
-
-new treasuretable "Clothes_Wizard_Hat"
-CanMerge 1
-new subtable "1,1"
-object category "T_TMG_HELMETS_TT",1,0,0,0,0,0,0,0
-
-new treasuretable "EquipmentTrader_BodyArmor"
-CanMerge 1
-new subtable "1,1"
-object category "T_TMG_BODY_TT",1,0,0,0,0,0,0,0
-new subtable "1,1"
-object category "T_TMG_BACK_TT",1,0,0,0,0,0,0,0
-new subtable "1,1"
-object category "T_TMG_LEGS_TT",1,0,0,0,0,0,0,0
-new subtable "1,1"
-object category "T_TMG_HAND_TT",1,0,0,0,0,0,0,0
 
 new treasuretable "DEN_Entrance_Trade"
 CanMerge 1
